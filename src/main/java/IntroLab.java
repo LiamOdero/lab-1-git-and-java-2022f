@@ -4,15 +4,12 @@
  * You should read this file from top-to-bottom. Any tasks you are to complete
  * are labelled with TODO!
  */
-
 public class IntroLab {
 
     /**
      * Returns a message depending on the given greeting, name, message, and
      * whether the caller likes cats or dogs more.
-     *
      * Do NOT change this method!
-     *
      * @param greeting   A string with a greeting (e.g. "Hello", "Hey")
      * @param name       A string with a name (e.g. "Jonathan", "Lindsey")
      * @param likes_cats A boolean: true if they like cats more than dogs,
@@ -40,6 +37,10 @@ public class IntroLab {
      * As a reference, we've provided the sample method exampleStudent.
      * Make sure you document your method properly!
      */
+
+    public static String oderolia()    {
+        return printLabMessage("Salutations", "Liam Odero", false, "message");
+    }
 
     /**
      * An example method that calls on printLabMessage.
